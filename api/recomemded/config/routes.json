@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/recomemded",
+      "handler": "recomemded.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/recomemded",
+      "handler": "recomemded.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/recomemded",
+      "handler": "recomemded.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
